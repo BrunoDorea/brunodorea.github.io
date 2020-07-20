@@ -249,6 +249,44 @@ a:hover
     background-size: cover;
 }
 
+.image-container .background-img-telecom
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    -webkit-transition: opacity 1s ease;
+         -o-transition: opacity 1s ease;
+            transition: opacity 1s ease;
+
+    background: url(../img/background-telecom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-container .background-img-si
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    -webkit-transition: opacity 1s ease;
+         -o-transition: opacity 1s ease;
+            transition: opacity 1s ease;
+
+    background: url(../img/background-si.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 @media (max-width:1200px)
 {
     .image-container
